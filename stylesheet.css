@@ -1,0 +1,30 @@
+body {
+            margin: 0;
+            font-family: DM Serif Display;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+       
+        nav a {
+            color: black;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+
+        nav a : hover {
+            background-color: #555;
+        }
